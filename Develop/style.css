@@ -1,0 +1,65 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+
+.jumbotron {
+  text-align: center;
+  background-image: url(https://th.bing.com/th/id/R.0e8b59047981aabe1ccdb79a876d8fb5?rik=P6xBwpB339x7gQ&riu=http%3a%2f%2fwallpapercave.com%2fwp%2f20niwZQ.jpg&ehk=cUlX9iMuQDBUUlmAzy0WyzeFChACdxwBK4pWzz7vPzg%3d&risl=&pid=ImgRaw&r=0);
+  background-position-y: 30%;
+  color: rgb(255, 255, 255);
+  border-radius: 0;
+  border-bottom: 10px solid #000000;
+}
+
+.description {
+  white-space: pre-wrap;
+}
+
+.time-block {
+  text-align: center;
+  border-radius: 15px;
+}
+
+.row {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid white;;
+}
+
+.hour {
+  background-color: #ffffff;
+  color: #000000;
+  border-top: 1px dashed #88898C;
+}
+
+.past {
+  background-color: #F2EDDC;
+  color: white;
+}
+
+.present {
+  background-color: #D96A29;
+  color: white;
+}
+
+.future {
+  background-color: #69AFBF;
+  color: white;
+}
+
+.saveBtn {
+  border: 1px solid #88898C;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #000000;
+  color: white;
+}
+
+.saveBtn i:hover {
+  font-size: 25px;
+  transition: all .5s ease-in-out;
+  
+}
+
